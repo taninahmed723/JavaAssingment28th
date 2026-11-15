@@ -4,12 +4,12 @@ class Student {
 
     int id;
     String name;
-    double marks;
+    
 
     void display() {
         System.out.println("ID: " + id);
         System.out.println("Name: " + name);
-        System.out.println("Marks: " + marks);
+        
 
     }
 }
@@ -21,17 +21,17 @@ public class Main {
         Student s2 = new Student();
         Student s3 = new Student();
 
-        s1.id = 1;
-        s1.name = "Rahim";
-        s1.marks = 85;
+        s1.id = 36;
+        s1.name = "Tahmid";
+        
 
-        s2.id = 2;
-        s2.name = "Karim";
-        s2.marks = 90;
+        s2.id = 60;
+        s2.name = "Nice";
+        
 
-        s3.id = 3;
-        s3.name = "Hasan";
-        s3.marks = 80;
+        s3.id = 22;
+        s3.name = "Rafi";
+        
 
         s1.display();
         s2.display();
